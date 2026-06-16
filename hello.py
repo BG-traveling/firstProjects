@@ -9,7 +9,7 @@ while True:
     try:
         user_chat = int(input('(1)현재시간, (2)제작자, (3)종료\n'))
         if user_chat == 1:
-            print(f'현재 시각 : {now}')
+            print(f'현재 시각 : {now.strftime("%Y-%m-%d, %H:%M:%S")}')
             continue
         elif user_chat == 2:
             print('제작자: 김동현')
