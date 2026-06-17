@@ -12,7 +12,7 @@ while True:
             print(f'현재 시각 : {now.strftime("%Y-%m-%d, %H:%M:%S")}')
             continue
         elif user_chat == 2:
-            print('제작자: 김동현')
+            print('제작자 : 김동현')
             continue
         elif user_chat == 3:
             print("종료하겠습니다!")
